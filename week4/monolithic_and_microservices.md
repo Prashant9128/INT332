@@ -31,15 +31,7 @@ A monolithic application is a single large application where all components are 
 
 ### Structure of Monolithic Application
 
-```mermaid
-graph TD
-    User((User)) --> UI[Frontend / UI]
-    UI --> Logic[Business Logic]
-    Logic --> DB[(Database)]
-    style UI fill:#f9f,stroke:#333,stroke-width:2px
-    style Logic fill:#bbf,stroke:#333,stroke-width:2px
-    style DB fill:#bfb,stroke:#333,stroke-width:2px
-```
+![Monolithic Architecture](../images/monolithic.png)
 *All modules exist inside one application.*
 
 ### Components of Monolithic Application
@@ -76,25 +68,7 @@ Microservices divide an application into small independent services that communi
 
 ### Structure of Microservices Application
 
-```mermaid
-graph TD
-    User((User)) --> API[API Gateway]
-    API --> S1[User Service]
-    API --> S2[Order Service]
-    API --> S3[Payment Service]
-    API --> S4[Inventory Service]
-    
-    S1 --> DB1[(MySQL)]
-    S2 --> DB2[(MongoDB)]
-    S3 --> DB3[(PostgreSQL)]
-    S4 --> DB4[(Redis)]
-    
-    style API fill:#ff9,stroke:#333,stroke-width:2px
-    style S1 fill:#bbf,stroke:#333,stroke-width:2px
-    style S2 fill:#bbf,stroke:#333,stroke-width:2px
-    style S3 fill:#bbf,stroke:#333,stroke-width:2px
-    style S4 fill:#bbf,stroke:#333,stroke-width:2px
-```
+![Microservices Architecture](../images/microservices.png)
 
 ### Key Concepts of Microservices
 

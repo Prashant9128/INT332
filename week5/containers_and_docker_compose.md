@@ -13,27 +13,7 @@ Containers are lightweight virtualization technology used to run isolated applic
 
 ### Containers vs Virtual Machines
 
-```mermaid
-graph LR
-    subgraph Virtual Machine [Virtual Machine Architecture]
-        direction BT
-        HW1[Hardware] --> HO1[Host OS]
-        HO1 --> HYP[Hypervisor]
-        HYP --> VM1[Guest OS 1<br/>App 1]
-        HYP --> VM2[Guest OS 2<br/>App 2]
-    end
-
-    subgraph Container [Container Architecture]
-        direction BT
-        HW2[Hardware] --> HO2[Host OS]
-        HO2 --> DE[Docker Engine]
-        DE --> C1[App 1]
-        DE --> C2[App 2]
-    end
-    
-    style HYP fill:#f96,stroke:#333
-    style DE fill:#69b,stroke:#333
-```
+![Containers vs Virtual Machines](../images/containers_vs_vms.png)
 
 | Feature | Containers | Virtual Machines |
 | :--- | :--- | :--- |
