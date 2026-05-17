@@ -44,7 +44,7 @@ A monolithic application is a single large application where all components are 
 
 ### Structure of Monolithic Application
 
-![Monolithic Architecture](../images/monolithic.png)
+![Monolithic Architecture](./images/monolithic.png)
 *All modules exist inside one application.*
 
 ### ✨ Components of Monolithic Application
@@ -83,7 +83,7 @@ Microservices divide an application into small independent services that communi
 
 ### Structure of Microservices Application
 
-![Microservices Architecture](../images/microservices.png)
+![Microservices Architecture](./images/microservices.png)
 
 ### 🚀 Key Concepts of Microservices
 

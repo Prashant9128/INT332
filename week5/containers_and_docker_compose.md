@@ -28,7 +28,7 @@ Containers are lightweight virtualization technology used to run isolated applic
 
 ### Containers vs Virtual Machines
 
-![Containers vs Virtual Machines](../images/containers_vs_vms.png)
+![Containers vs Virtual Machines](./images/containers_vs_vms.png)
 
 | Feature | Containers | Virtual Machines |
 | :--- | :--- | :--- |
