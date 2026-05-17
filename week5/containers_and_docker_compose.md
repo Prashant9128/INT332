@@ -1,11 +1,26 @@
-# Week 5: Containers, Docker, and Kubernetes
+# 🚢 Week 5: Containers, Docker, and Kubernetes
 
-## 1. Containers
+Welcome to **Week 5**! This module bridges the gap between Microservices and actual deployment using **Containers** and orchestration tools like **Docker Compose** and **Kubernetes**.
+
+---
+
+## 📑 Table of Contents
+1. [Containers Deep Dive](#1-containers-deep-dive)
+2. [Docker & Kubernetes Overview](#2-docker--kubernetes-overview)
+3. [Docker Compose Magic](#3-docker-compose-magic)
+4. [docker-compose.yml Structure & Concepts](#4-docker-composeyml-structure--concepts)
+5. [How Docker Compose Works & Commands](#5-how-docker-compose-works--commands)
+6. [Practical Real-World Examples](#6-practical-real-world-examples)
+7. [🎓 Interview Prep & Revision](#7-interview-prep--revision)
+
+---
+
+## 1. 📦 Containers Deep Dive
 
 ### Definition
 Containers are lightweight virtualization technology used to run isolated applications on the same operating system.
 
-### Features of Containers
+### ✨ Features of Containers
 * **Lightweight:** Faster than VMs
 * **Portable:** Run anywhere
 * **Isolated:** Applications separated securely
@@ -28,32 +43,33 @@ Microservices usually run inside containers.
 
 ---
 
-## 2. Docker & Kubernetes
+## 2. 🐳 Docker & Kubernetes Overview
 
 ### Docker
 **Definition:** Docker is a platform used to create and manage containers.
 
-### Kubernetes
+### Kubernetes (K8s)
 **Definition:** Kubernetes is a container orchestration platform.
 **Functions:** Auto scaling, Self healing, Load balancing, Container management.
 
 ---
 
-## 3. Docker Compose
+## 3. 🪄 Docker Compose Magic
 
 ### Definition
-Docker Compose is a tool used to manage multi-container Docker applications using a YAML file.
+Docker Compose is a tool used to manage multi-container Docker applications using a `YAML` file.
 
 ### Why Docker Compose is Needed?
-Without Compose, you run multiple commands:
+Without Compose, you run multiple commands manually:
 ```bash
 docker run web
 docker run db
 docker run redis
 ```
-**Problems:** Too many commands, networking issues, hard configuration, difficult reproducibility.
+> [!WARNING]
+> **Problems without Compose:** Too many commands, networking issues, hard configuration, difficult reproducibility.
 
-### Benefits of Docker Compose
+### 🌟 Benefits of Docker Compose
 1. **Multi-container Management:** Manage all containers together.
 2. **Reproducibility:** Same setup on every machine.
 3. **Simplified Networking:** Services communicate using names.
@@ -62,7 +78,7 @@ docker run redis
 
 ---
 
-## 4. docker-compose.yml Structure & Concepts
+## 4. 📝 docker-compose.yml Structure & Concepts
 
 ### Basic Structure
 ```yaml
@@ -73,7 +89,7 @@ services:
     image: nginx
 ```
 
-### Important Concepts
+### 🧩 Important Concepts
 
 **A. Services:** Blueprint for containers.
 **B. Image vs Build:**
@@ -92,23 +108,25 @@ volumes:
   - data:/var/lib/mysql
 ```
 
-**E. Networks:** Compose automatically creates networks for service discovery and built-in DNS.
+> [!NOTE]
+> **E. Networks:** Compose automatically creates networks for service discovery and built-in DNS.
 
 **F. depends_on:**
 ```yaml
 depends_on:
   - db
 ```
-*Important:* Ensures startup order, but does NOT ensure service readiness.
+> [!CAUTION]
+> *Important:* `depends_on` ensures startup order, but does **NOT** ensure service readiness.
 
 ---
 
-## 5. How Docker Compose Works & Commands
+## 5. ⚙️ How Docker Compose Works & Commands
 
 ### Workflow
 Docker Compose: Reads YAML file ➔ Pulls/Builds images ➔ Creates networks ➔ Creates volumes ➔ Starts containers ➔ Connects services.
 
-### Basic Commands
+### ⌨️ Basic Commands
 * **Setup:** `docker-compose version`, `docker-compose config`
 * **Starting:** `docker-compose up`, `docker-compose up -d` (detached), `docker-compose up --build`
 * **Stopping:** `docker-compose down`, `docker-compose stop`, `docker-compose start`
@@ -118,7 +136,7 @@ Docker Compose: Reads YAML file ➔ Pulls/Builds images ➔ Creates networks ➔
 
 ---
 
-## 6. Docker Compose Examples
+## 6. 🌐 Practical Real-World Examples
 
 ### Node.js + MongoDB Example
 ```yaml
@@ -187,14 +205,14 @@ volumes:
 
 ---
 
-## 7. Real-World Examples & Revision
+## 7. 🎓 Interview Prep & Revision
 
 ### Real-World Examples
 | Platform | Architecture |
 | :--- | :--- |
 | WordPress Site | Containerized App |
 
-### One-Line Revision Notes
+### 🚀 One-Line Revision Notes
 * **Docker** = Container platform
 * **Kubernetes** = Container manager
 * **Docker Compose** = Multi-container manager
@@ -202,7 +220,7 @@ volumes:
 * **Port Mapping** = HostPort:ContainerPort
 * **YAML** = Indentation-sensitive configuration format
 
-### Important Interview / Viva Questions
+### 📝 Important Interview / Viva Questions
 **Q2. Why are containers faster than VMs?**
 * Because containers share the host OS kernel.
 
@@ -215,5 +233,9 @@ volumes:
 **Q5. What is the purpose of depends_on?**
 * Controls startup order of services.
 
-### Important Keywords
-`Containers`, `Docker`, `Kubernetes`, `Docker Compose`, `YAML`, `Volumes`, `Scaling`, `Orchestration`
+> [!IMPORTANT]
+> **Important Keywords:**
+> `Containers`, `Docker`, `Kubernetes`, `Docker Compose`, `YAML`, `Volumes`, `Scaling`, `Orchestration`
+
+---
+**Curated for Prashant — Week 5 of INT332**
