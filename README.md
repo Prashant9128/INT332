@@ -26,7 +26,7 @@
 | 📘 Course | INT332 – DevOps Virtualization and Configuration Management |
 | 🏫 University | Lovely Professional University |
 | 🎓 Program | B.Tech Computer Science & Engineering |
-| 👨‍💻 Maintained By | Prashant |
+| 👨‍💻 Maintained By | Prashant Kumar Sharma |
 | 📂 Repository Type | Notes + Labs + Projects + Viva + Interview Preparation |
 | 📈 Coverage | Complete Course Coverage |
 
@@ -563,7 +563,7 @@ Production Deployment
 
 # 👨‍💻 Author
 
-### **Prashant**
+### **Prashant Kumar Sharma**
 
 - 🎓 B.Tech Computer Science & Engineering
 - 🏫 Lovely Professional University
