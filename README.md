@@ -4,24 +4,24 @@ Welcome to the **INT332** course repository. This repository contains all labs, 
 
 ## 📂 Course Modules
 - **Week 1: Introduction to Containerization**
-    - [Concepts & Architecture](./week1/containerization_guide.md)
+    - [Concepts & Architecture](./week01/containerization_guide.md)
 - **Week 2: Docker Basics & Commands**
-    - [CLI, Volumes, and Networking](./week2/docker_basics_guide.md)
-    - [Apache Deployment Tutorial](./week2/docker_basics_guide.md#6-apache-deployment-task)
+    - [CLI, Volumes, and Networking](./week02/docker_basics_guide.md)
+    - [Apache Deployment Tutorial](./week02/docker_basics_guide.md#6-apache-deployment-task)
 - **Week 3: Advanced Commands & Env Variables**
-    - [Interactive, Detached & Variables](./week3/docker_commands_env_vars.md)
+    - [Interactive, Detached & Variables](./week03/docker_commands_env_vars.md)
 - **Week 4: Architecture Evolution**
-    - [Monolithic & Microservices Architectures](./week4/monolithic_and_microservices.md)
+    - [Monolithic & Microservices Architectures](./week04/monolithic_and_microservices.md)
 - **Week 5: Container Orchestration**
-    - [Containers, Docker & Kubernetes](./week5/containers_and_docker_compose.md)
+    - [Containers, Docker & Kubernetes](./week05/containers_and_docker_compose.md)
 - **Week 6: Maven & Build Automation**
-    - [Maven, Lifecycle, and Docker Integration](./week6/maven_and_docker_integration.md)
+    - [Maven, Lifecycle, and Docker Integration](./week06/maven_and_docker_integration.md)
 - **Week 7: Maven + Docker Integration (Practical)**
-    - [Practical Tutorial](./week7/practical_mvn_docker_integration.md)
+    - [Practical Tutorial](./week07/practical_mvn_docker_integration.md)
 - **Week 8: CI/CD with GitHub Actions**
-    - [GitHub Actions Workflows](./week8/github_actions_guide.md)
+    - [GitHub Actions Workflows](./week08/github_actions_guide.md)
 - **Week 9: CI/CD with Jenkins**
-    - [Jenkins Pipelines & Architecture](./week9/jenkins_cicd_guide.md)
+    - [Jenkins Pipelines & Architecture](./week09/jenkins_cicd_guide.md)
 - **Week 10: Flask + Docker CI Pipeline (Practical)**
     - [Flask CI/CD Practical Tutorial](./week10_practical/flask_docker_github_actions.md)
 - **Week 11: Production CD Deployment (Practical)**
