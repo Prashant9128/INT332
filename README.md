@@ -561,17 +561,22 @@ Production Deployment
 
 ---
 
-🎓 B.Tech Computer Science & Engineering
+# 👨‍💻 Author
 
-🏫 Lovely Professional University
+### **Prashant**
 
-📚 INT332 – DevOps Virtualization and Configuration Management
+- 🎓 B.Tech Computer Science & Engineering
+- 🏫 Lovely Professional University
+- 📚 INT332 – DevOps Virtualization and Configuration Management
 
 ---
 
 <div align="center">
 
-**Docker • Docker Compose • Maven • GitHub Actions • Jenkins**
+### ⭐ Repository Status: COMPLETE
+
+#### 🚀 From DevOps Fundamentals to Enterprise CI/CD
+**Docker - Docker Compose - Maven - GitHub Actions - Jenkins**
 
 If you found this repository useful, consider giving it a ⭐
 
