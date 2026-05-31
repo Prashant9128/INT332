@@ -14,6 +14,17 @@ Welcome to the **INT332** course repository. This repository contains all labs, 
     - [Monolithic & Microservices Architectures](./week4/monolithic_and_microservices.md)
 - **Week 5: Container Orchestration**
     - [Containers, Docker & Kubernetes](./week5/containers_and_docker_compose.md)
+- **Week 6: Maven & Build Automation**
+    - [Maven, Lifecycle, and Docker Integration](./week6/maven_and_docker_integration.md)
+- **Week 7: Maven + Docker Integration (Practical)**
+    - [Practical Tutorial](./week7/practical_mvn_docker_integration.md)
+- **Week 8: CI/CD with GitHub Actions**
+    - [GitHub Actions Workflows](./week8/github_actions_guide.md)
+- **Week 9: CI/CD with Jenkins**
+    - [Jenkins Pipelines & Architecture](./week9/jenkins_cicd_guide.md)
 
 ---
 **Created with ❤️ for Prashant**
+
+
+
