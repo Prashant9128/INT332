@@ -22,9 +22,16 @@ Welcome to the **INT332** course repository. This repository contains all labs, 
     - [GitHub Actions Workflows](./week8/github_actions_guide.md)
 - **Week 9: CI/CD with Jenkins**
     - [Jenkins Pipelines & Architecture](./week9/jenkins_cicd_guide.md)
+- **Week 10: Flask + Docker CI Pipeline (Practical)**
+    - [Flask CI/CD Practical Tutorial](./week10_practical/flask_docker_github_actions.md)
+- **Week 11: Production CD Deployment (Practical)**
+    - [CD Pipeline Practical Tutorial](./week11_practical/actions_deployment_pipeline.md)
+- **Week 12: Java Maven Build & Docker Hub Automation (Practical)**
+    - [Java Maven & Docker Hub Practical Tutorial](./week12_practical/java_maven_docker_hub.md)
 
 ---
 **Created with ❤️ for Prashant**
+
 
 
 
